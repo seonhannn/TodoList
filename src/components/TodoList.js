@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import TodoItem from "./TodoItem";
 
 const TodoListBlock = styled.div `
     flex: 1;
@@ -11,7 +12,8 @@ const TodoListBlock = styled.div `
 function TodoList() {
     return (
         <TodoListBlock>
-            TodoList
+            <TodoItem text={"프로젝트 생성"} done={true}></TodoItem>
+            <TodoItem text={"기능 구현"} done={false}></TodoItem>
         </TodoListBlock>
     )
 }
