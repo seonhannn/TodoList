@@ -7,8 +7,11 @@ import TodoList from "./components/TodoList";
 import TodoTemplate from "./components/TodoTemplate";
 
 const GlobalStyle = createGlobalStyle`
+  * {
+    font-family: "Gowun Dodum";
+  }
   body {
-    background: #BCCEF8;
+    background: #DEF5E5;
   }`;
 
 function App() {

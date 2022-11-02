@@ -17,7 +17,7 @@ function todoReducer(state, action) {
     switch(action.type) {
         case "CREATE" :
             return state.concat(action.todo);
-        case "ToGGLE" :
+        case "TOGGLE" :
             return state.map(todo => 
                 todo.id === action.id ? {...todo, done: !todo.done} : todo);
         case "REMOVE" :
@@ -46,13 +46,25 @@ export function TodoProvider({children}) {
 }
 
 export function useTodoState() {
-    return useContext(TodoStateContext);
+    const context = useContext(TodoStateContext);
+    if(!context) {
+        throw new Error('Cannot find TodoProvider');
+    }
+    return context;
 }
 
 export function useTodoDispatch() {
-    return useContext(TodoDispatchContext);
+    const context = useContext(TodoDispatchContext);
+    if(!context) {
+        throw new Error('Cannot find TodoProvider');
+    }
+    return context;
 }
 
 export function useTodoNextId() {
-    return useContext(TodoNextIdContext);
+    const context = useContext(TodoNextIdContext);
+    if(!context) {
+        throw new Error('Cannot find TodoProvider');
+    }
+    return context;
 }
