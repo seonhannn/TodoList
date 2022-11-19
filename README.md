@@ -3,15 +3,16 @@
 
 ### 인원
 	FrontEnd - 1명
+
 ### Skills
 	언어 - JavaScript
-	 - React
+	라이브러리 - React
 
 ### 구현 목표
-  투두리스트 추가, 삭제, 수정, 날짜, 현재 위치 날씨
+	투두리스트 추가, 삭제, 수정, 날짜, 현재 위치 날씨
     
 ### 구조
-css는 styled-components를 사용하였다.
+css는 styled-components를 사용하였습니다.
 
 	/src
     |-App.js
@@ -28,5 +29,7 @@ css는 styled-components를 사용하였다.
 <br/>
 
 [프로젝트 설명1](https://velog.io/@seonhan/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%88%AC%EB%91%90%EB%A6%AC%EC%8A%A4%ED%8A%B8)
+
 [프로젝트 설명2](https://velog.io/@seonhan/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%88%AC%EB%91%90%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC-%EA%B8%B0%EB%8A%A5-%EC%99%84%EC%84%B1)
+
 [프로젝트 설명3](https://velog.io/@seonhan/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%88%AC%EB%91%90%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%82%A0%EC%94%A8-%EA%B5%AC%ED%98%84)
